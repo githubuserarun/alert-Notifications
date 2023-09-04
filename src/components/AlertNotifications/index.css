@@ -1,0 +1,54 @@
+* {
+  font-family: roboto;
+}
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0f172a;
+}
+p {
+  font-size: 15px;
+  color: #475569;
+}
+.icon_img {
+  font-size: 40px;
+}
+.bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notification_content {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.all_notification_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.success_img {
+  color: #2dca73;
+}
+.error_img {
+  color: #ff0b37;
+}
+.warn_img {
+  color: #ffb800;
+}
+.info_img {
+  color: #0f81e0;
+}
